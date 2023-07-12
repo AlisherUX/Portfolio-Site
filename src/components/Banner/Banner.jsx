@@ -11,7 +11,7 @@ export default function Banner() {
   return (
     <div className="text-white w-auto flex flex-col py-16 gap-32">
       <div className="flex items-center justify-around">
-        <div className=" text-8xl w-1/3 font-mono">I'm a web programmer</div>
+        <div className=" text-8xl w-1/3 font-mono">Im a web programmer</div>
 
         <div className=" p-16 bg-slate-800 bg-white-0 rounded-md bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-40 border border-slate-800">
           <Image src={Life} alt="" />
