@@ -1,5 +1,5 @@
 export default function Projects() {
   return (
-    <div>Projects</div>
+    <div className=" text-white">Projects</div>
   )
 }

@@ -1,5 +1,6 @@
 export default function Footer() {
   return (
-    <div className=''>Footer</div>
+    <div className=' text-white'>
+    </div>
   )
 }
