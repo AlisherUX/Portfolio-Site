@@ -1,0 +1,29 @@
+.navbar_wrapper {
+  @apply mb-16
+}
+
+.navbar_nav {
+  @apply py-2 text-white drop-shadow-2xl 
+  bg-slate-900 rounded-md bg-clip-padding backdrop-filter
+  backdrop-blur-md bg-opacity-40 border border-zinc-900;
+}
+
+.navbar_logo {
+  @apply flex-none
+}
+
+.navbar_actions__wrapper {
+  @apply flex items-center justify-between gap-6 
+}
+
+.links_content {
+  @apply flex items-center gap-5
+}
+
+.burger_btn {
+  @apply cursor-pointer border w-9 py-2 flex flex-col gap-1 justify-center items-center rounded;
+}
+
+.burger_btn__items{
+  @apply w-4 border
+}
