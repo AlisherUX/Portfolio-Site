@@ -33,14 +33,19 @@ export const theme = {
         "0%": { transform: "rotate(-0deg)" },
         "100%": { transform: "rotate(360deg)" },
       },
-      translate: {
-        "0%": { transform: "translateX(-113%)" },
-        "100%": { transform: "translate(113%)" },
+      translateM: {
+        "0%": { transform: "translateX(-116%)" },
+        "100%": { transform: "translate(116%)" },
+      },
+      translateP: {
+        "0%": { transform: "translateX(116%)" },
+        "100%": { transform: "translate(-116%)" },
       },
     },
     animation: {
-      translate: "translate 50s linear infinite",
-      wiggle: 'wiggle 20s linear infinite'
+      translateM: "translateM 70s linear infinite",
+      translateP: "translateP 70s linear infinite",
+      wiggle: "wiggle 20s linear infinite",
     },
   },
 };

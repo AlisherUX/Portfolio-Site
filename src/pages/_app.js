@@ -1,11 +1,12 @@
-import Layout from '@/components/Layout'
 import '@/styles/globals.css'
+import { ThemeProvider } from 'next-themes'
 
 export default function App({ Component, pageProps }) {
+
   return(
-    <Layout>
+    <ThemeProvider>
       <Component {...pageProps} />
-    </Layout>
+    </ThemeProvider>
   )
 }
 

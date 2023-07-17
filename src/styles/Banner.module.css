@@ -1,5 +1,5 @@
 .banner_wrapper {
-  @apply text-white w-auto flex flex-col py-16 gap-16;
+  @apply text-white w-auto flex flex-col gap-16 mb-32;
 }
 
 .banner_entries__content {
@@ -16,16 +16,6 @@
 
 .banner_subtitle {
   @apply w-10/12 text-xl tracking-wide text-primary;
-}
-
-.skills_content {
-  @apply flex items-center overflow-hidden 
-  p-1 bg-gradient-to-r from-indigo-500 via-purple-500 
-  to-indigo-500;
-}
-
-.skills_inner_wrapper {
-  @apply flex items-center justify-center gap-72 animate-translate
 }
 
 .first_bg_blur {

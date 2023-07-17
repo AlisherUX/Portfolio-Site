@@ -1,29 +1,27 @@
-.navbar_wrapper {
-  @apply mb-16
-}
-
 .navbar_nav {
-  @apply py-2 text-white drop-shadow-2xl 
+  @apply py-2 drop-shadow-2xl 
   bg-slate-900 rounded-md bg-clip-padding backdrop-filter
   backdrop-blur-md bg-opacity-40 border border-zinc-900;
 }
 
-.navbar_logo {
-  @apply flex-none
+.navbar_inner_wrapper {
+  @apply flex items-center justify-between px-4 md:px-8
 }
 
-.navbar_actions__wrapper {
-  @apply flex items-center justify-between gap-6 
+.navbar_link {
+  @apply text-white text-sm sm:text-base px-1 rounded-md hover:text-indigo-500
 }
 
-.links_content {
-  @apply flex items-center gap-5
+.actions_content {
+  @apply flex items-center gap-3
 }
 
 .burger_btn {
-  @apply cursor-pointer border w-9 py-2 flex flex-col gap-1 justify-center items-center rounded;
+  @apply cursor-pointer border-[2px] flex flex-col 
+  gap-1 justify-center items-center rounded
+  p-1 sm:p-2 sm:border-[1px]
 }
 
 .burger_btn__items{
-  @apply w-4 border
+  @apply w-[16px] h-[2px] bg-white
 }
