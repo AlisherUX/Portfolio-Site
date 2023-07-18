@@ -1,26 +1,27 @@
-.skills_content {
-  @apply flex flex-col overflow-hidden py-10 relative;
+.skills_wrapper {
+  @apply w-full px-[53px] pt-32 flex flex-col gap-14 relative
 }
 
-.skills_text {
-  @apply absolute top-0 bottom-0 right-0 left-0 flex items-center justify-center
-  text-8xl text-neutral-900 opacity-60 tracking-[100px]
+.skills_title {
+  @apply text-center text-darkBlue text-[40px] font-bold
 }
 
-.skills_first_bg {
-  @apply absolute bottom-16 w-2/3 h-4/6 bg-gradient-to-r blur-3xl opacity-30
-  from-violet-900 to-fuchsia-900;
+.boxes_wrapper {
+  @apply w-full flex flex-wrap justify-around gap-16
 }
 
-.skills_second_bg {
-  @apply absolute right-0 bottom-16 w-2/3 h-4/6 bg-gradient-to-r blur-3xl opacity-30
-  from-violet-900 to-fuchsia-900;
+.box_outline {
+  @apply border border-darkBlue p-[22px]
 }
 
-.skills_right_wrapper {
-  @apply flex items-center justify-center gap-64 animate-translateM opacity-50;
+.box {
+  @apply w-[200px] h-[200px] cursor-pointer bg-darkBlue text-white text-[30px] flex items-center justify-center
 }
 
-.skills_left_wrapper {
-  @apply flex items-center justify-center gap-64 animate-translateP opacity-50;
+.right_item {
+  @apply absolute top-0 right-[15px] w-[1px] h-full bg-darkBlue
+}
+
+.left_item {
+  @apply absolute top-0 left-[15px] w-[1px] h-full bg-darkBlue
 }

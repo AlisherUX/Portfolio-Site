@@ -1,7 +1,3 @@
-//gifs
-import Egg from "./egg.gif";
-import Tocus from "./tocus.gif";
-
 //logos
 import GitHub from "./github.png";
 import Google from "./google-drive.png";
@@ -21,11 +17,9 @@ import UserIcon from "./user.png";
 
 
 //img and items
-import Sphere from "./sphere.png"
+import Itpark from "./it-park.jpg"
 
 export {
-    Egg,
-    Tocus,
     GitHub,
     Google,
     Vercel,
@@ -34,10 +28,10 @@ export {
     LayersIcon,
     HomeIcon,
     InfoIcon,
-    Sphere,
     Styled,
     Next,
     React,
     Js,
-    MaterialUi
+    MaterialUi,
+    Itpark
 }

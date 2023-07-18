@@ -1,0 +1,23 @@
+.weblern_wrapper {
+    @apply w-full px-[53px] flex flex-col pt-32 relative
+}
+
+.weblern_title {
+    @apply text-center text-darkBlue text-[40px] font-bold
+}
+
+.weblern_content {
+    @apply flex mt-[63px] gap-14 items-center
+}
+
+.weblern_text {
+    @apply text-darkBlue text-[20px] text-left leading-[35px] tracking-wider
+}
+
+.left_item {
+    @apply absolute left-[15px] top-0 w-[1px] h-full bg-darkBlue
+}
+
+.right_item {
+    @apply absolute right-[15px] top-0 w-[1px] h-full bg-darkBlue
+}

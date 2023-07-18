@@ -1,9 +1,9 @@
 import { Roboto } from "next/font/google";
+import Navbar from "@/components/Navbar";
 import Banner from "@/components/Banner";
 import About from "@/components/About";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Skills from "@/components/Skills";
+import Weblern from "@/components/Weblern";
 
 const roboto = Roboto({
   weight: "400",
@@ -14,14 +14,10 @@ export default function Home() {
   return (
     <main className={roboto.className}>
       <Navbar />
-      <div className="max-w-screen-2xl w-auto mx-auto  pt-36">
-        <Banner />
-      </div>
+      <Banner />
+      <About />
       <Skills />
-      <div className="max-w-screen-2xl w-auto mx-auto">
-        <About />
-        <Footer />
-      </div>
+      <Weblern />
     </main>
   );
 }

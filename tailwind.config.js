@@ -26,7 +26,7 @@ export const theme = {
   },
   extend: {
     colors: {
-      primary: "#fff",
+      darkBlue: "#27374D",
     },
     keyframes: {
       wiggle: {

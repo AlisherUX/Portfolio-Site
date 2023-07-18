@@ -1,27 +1,39 @@
 .navbar_nav {
-  @apply py-2 drop-shadow-2xl 
-  bg-slate-900 rounded-md bg-clip-padding backdrop-filter
-  backdrop-blur-md bg-opacity-40 border border-zinc-900;
+  @apply w-full px-[53px] py-[40px] flex items-center justify-between bg-white relative
 }
 
-.navbar_inner_wrapper {
-  @apply flex items-center justify-between px-4 md:px-8
+.logo {
+  @apply text-[20px] text-darkBlue
 }
 
-.navbar_link {
-  @apply text-white text-sm sm:text-base px-1 rounded-md hover:text-indigo-500
+.nav_link {
+  @apply text-darkBlue text-[16px]
 }
 
-.actions_content {
-  @apply flex items-center gap-3
+.actions_wrapper {
+  @apply flex gap-[63px]
+}
+
+.links_wrapper {
+  @apply flex gap-[63px] items-center
 }
 
 .burger_btn {
-  @apply cursor-pointer border-[2px] flex flex-col 
-  gap-1 justify-center items-center rounded
-  p-1 sm:p-2 sm:border-[1px]
+  @apply border-[1px] border-darkBlue p-[8px] flex flex-col justify-between gap-[5px] cursor-pointer
 }
 
-.burger_btn__items{
-  @apply w-[16px] h-[2px] bg-white
+.btn_item {
+  @apply w-[15px] h-[1px] bg-darkBlue
+}
+
+.top_item {
+  @apply absolute top-[15px] left-[15px] right-[15px] h-[1px] bg-darkBlue
+}
+
+.right_item {
+  @apply absolute top-[15px] right-[15px] h-full w-[1px] bg-darkBlue
+}
+
+.left_item {
+  @apply absolute top-[15px] left-[15px] h-full w-[1px] bg-darkBlue
 }

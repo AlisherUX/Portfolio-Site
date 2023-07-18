@@ -1,0 +1,27 @@
+.about_wrapper {
+    @apply pt-32 w-full px-[53px] flex flex-col items-center gap-32 relative
+}
+
+.entries_wrapper {
+    @apply flex flex-col items-center gap-[52px]
+}
+
+.about_title {
+    @apply text-center text-darkBlue text-[40px] font-bold
+}
+
+.about_text {
+    @apply text-darkBlue text-[20px] text-center leading-[35px] tracking-wider w-3/4
+}
+
+.about_img_wrapper {
+    @apply  p-16 border-[2px] border-darkBlue
+}
+
+.left_item {
+    @apply absolute left-[15px] top-0 w-[1px] h-full bg-darkBlue
+}
+
+.right_item {
+    @apply absolute right-[15px] top-0 w-[1px] h-full bg-darkBlue
+}
